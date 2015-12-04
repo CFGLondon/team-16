@@ -1,10 +1,8 @@
 package com.example.namz.ageuk;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,6 +16,15 @@ public class VolunteerSignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_volunteer_signup);
     }
 
+    public void newVolunteer(View v){
+        Intent intent = new Intent(this, infoPage.class);
+        startActivity(intent);
+    }
+
+    public void infoPage(View v){
+        Intent intent = new Intent(this, infoPage.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
