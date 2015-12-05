@@ -28,10 +28,17 @@
         <activity android:name=".Registered" />
         <activity android:name=".LogIn" />
         <activity android:name=".Home" />
-        <activity android:name=".Reference"/>
+        <activity android:name=".Reference" />
+        <activity android:name=".moreQuestions2" />
+        <activity android:name=".moreQuestions3" />
+        <activity android:name=".interests" />
 
->>>>>>> 6c25c1c7f3d4fea18e68c9268da06a011d377f8c
+
+
+        >>>>>>> 6c25c1c7f3d4fea18e68c9268da06a011d377f8c
         <activity android:name=".moreQuestions1" >
+        </activity>
+        <activity android:name=".availablity" >
         </activity>
     </application>
 
