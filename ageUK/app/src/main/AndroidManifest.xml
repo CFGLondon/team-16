@@ -19,37 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".infoPage"
-            android:label="@string/title_activity_new_volunteer"
-<<<<<<< HEAD
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name=".newVolunteer" >
-        </activity>
-        <activity android:name=".v_personal_Info" >
-        </activity>
-        <activity android:name=".Registered" >
-        </activity>
-        <activity android:name=".r_personal_info" >
-        </activity>
-        <activity android:name=".moreQuestions" >
-        </activity>
-        <activity android:name=".Reference" >
-        </activity>
-        <activity android:name=".moreQuestions2" >
-        </activity>
-        <activity android:name=".moreQuestions3" >
-        </activity>
-        <activity android:name=".interests" >
-        </activity>
-        <activity android:name=".availability" >
-        </activity>
+            android:name=".r_personal_info"
+            android:label="@string/title_activity_new_volunteer"></activity>
+
 =======
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".newVolunteer" />
         <activity android:name=".v_personal_Info" />
         <activity android:name=".Registered" />
-        <activity android:name=".r_personal_info" />
+
         <activity android:name=".moreQuestions" />
         <activity android:name=".LogIn" />
         <activity android:name=".Home"></activity>
