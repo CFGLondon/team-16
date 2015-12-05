@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".newVolunteer" >
         </activity>
+        <activity android:name=".v_personal_Info" >
+        </activity>
+        <activity android:name=".Registered" >
+        </activity>
     </application>
 
 </manifest>

@@ -12,12 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Do you agree to sign up?"
+        android:text="Do you agree to sign up? Do you agree to the terms and conditions?"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp"
-        android:textColor="#fbfbfafa" />
+        android:textColor="#fbfbfafa"
+        android:layout_above="@+id/button5" />
 
     <Button
         android:layout_width="wrap_content"

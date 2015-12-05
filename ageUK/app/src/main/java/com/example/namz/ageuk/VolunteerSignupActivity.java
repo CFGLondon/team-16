@@ -16,13 +16,8 @@ public class VolunteerSignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_volunteer_signup);
     }
 
-    public void newVolunteer(View v){
-        Intent intent = new Intent(this, infoPage.class);
-        startActivity(intent);
-    }
-
     public void infoPage(View v){
-        Intent intent = new Intent(this, infoPage.class);
+        Intent intent = new Intent(this, newVolunteer.class);
         startActivity(intent);
     }
 
