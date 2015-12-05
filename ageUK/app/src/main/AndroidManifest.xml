@@ -30,9 +30,10 @@
         <activity android:name=".moreQuestions2" />
         <activity android:name=".moreQuestions3" />
         <activity android:name=".interests" />
-        <activity android:name=".moreQuestions1"></activity>
-        <activity android:name=".availablity"></activity>
-        <activity android:name=".LogCall"></activity>
+        <activity android:name=".moreQuestions1" />
+        <activity android:name=".availablity" />
+        <activity android:name=".LogCall" />
+        <activity android:name=".PickMatch"></activity>
     </application>
 
 </manifest>

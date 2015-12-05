@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:text="View possible matches"
         android:id="@+id/button"
-        android:onClick="LogIn"
+        android:onClick="PickMatch"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp" />

@@ -17,4 +17,9 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(this, LogCall.class);
         startActivity(intent);
     }
+
+    public void PickMatch(View v){
+        Intent intent = new Intent(this, PickMatch.class);
+        startActivity(intent);
+    }
 }
