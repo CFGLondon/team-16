@@ -15,7 +15,7 @@ public class Registered extends AppCompatActivity {
         setContentView(R.layout.activity_registered);
     }
     public void moreQuestions(View v) {
-        Intent intent = new Intent(this, moreQuestions.class);
+        Intent intent = new Intent(this, moreQuestions1.class);
         startActivity(intent);
     }
 }
