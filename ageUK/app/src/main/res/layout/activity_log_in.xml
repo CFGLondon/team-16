@@ -51,7 +51,8 @@
         android:background="#6e9952"
         android:layout_alignBottom="@+id/textViewEMail"
         android:layout_alignLeft="@+id/editTextPassword"
-        android:layout_alignStart="@+id/editTextPassword" />
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_alignTop="@+id/textViewEMail" />
 
     <Button
         android:layout_width="wrap_content"

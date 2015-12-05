@@ -211,9 +211,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Friday"
         android:id="@+id/textView15"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textView17"
-        android:layout_alignStart="@+id/textView17" />
+        android:layout_alignTop="@+id/frim"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
