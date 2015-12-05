@@ -55,9 +55,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Next"
         android:onClick="Registered"
-        android:id="@+id/buttonRegister"
+        android:id="@+id/buttonNext"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"

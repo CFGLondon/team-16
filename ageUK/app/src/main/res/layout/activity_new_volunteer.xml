@@ -12,32 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Call in Time is our national telephone friendship service for people in later life.Once you start your Call in Time journey with us, we’ll train you, support you and then match you with an older person who’s waiting for your call. Each week, you’ll enjoy a phone chat, learn about the person you’re calling and have our support every step of the way. Here are some of the benefits to you.
-You’ll feel a sense of happiness and wellbeing. Over 85% of our current volunteers in the service agree.
-You’ll be part of a programme that keeps you engaged on a long-term basis – nearly 90% of current volunteers say they’ll still be volunteering for Call in Time in 12 months’ time.
-As a volunteer you will need to commit to:
-Making a call to an older person for up to 30 minutes at the same time every week.
-Letting us know if you cannot make a call so we can cover it for you.
-Letting us know if your telephone friend doesn’t answer the phone and you are no longer able to carry on trying.
-Completing Charitylog after every call (you will be given training on how to do this) to let us know
-your telephone friend is safe and well.
-Keeping any information about your telephone friend confidential.
-Letting us know if there is anything you need help with.
-Not exchanging gifts with your telephone friend (though we do encourage you to send cards and photos).
-Not exchanging telephone numbers, emails or addresses with your telephone friend.
-In return, we will commit to:
-Providing induction and training to help you carry out the role.
-Keeping you informed and updated with regular and relevant communication.
-Providing call cover if you are not able to make your call.
-Providing ongoing support and advice from a named member of staff at Call in Time, enabling you to feedback to us any concerns or issues you may have.
-To keep your personal information confidential and secure unless legally obliged to disclose such information.
-Does volunteering with Call in Time sound like something you would be interested in? "
+        android:text="Thank you for showing interest in our program. Please read our terms and conditions below. Do you agree?"
         android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="103dp"
         android:textColor="#010101"
-        android:layout_above="@+id/button5" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="135dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,16 +26,19 @@ Does volunteering with Call in Time sound like something you would be interested
         android:text="Yes"
         android:onClick="newVolunteer"
         android:id="@+id/button5"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        android:layout_above="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No"
+        android:onClick="VolunteerSignUp"
         android:id="@+id/button6"
-        android:layout_below="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp" />
 </RelativeLayout>

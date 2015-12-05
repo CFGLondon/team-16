@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".r_personal_info" >
         </activity>
+        <activity android:name=".moreQuestions" >
+        </activity>
     </application>
 
 </manifest>

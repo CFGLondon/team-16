@@ -15,12 +15,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="WELCOME!"
         android:id="@+id/textView"
+        android:layout_marginTop="176dp"
+        android:textColor="#010101"
+        android:text="Welcome to Age UK"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
-        android:textColor="#fefdfd" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -57,4 +57,15 @@
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="58dp" />
+
 </RelativeLayout>

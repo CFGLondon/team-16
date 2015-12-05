@@ -17,4 +17,9 @@ public class newVolunteer extends AppCompatActivity {
         Intent intent = new Intent(this, v_personal_Info.class);
         startActivity(intent);
     }
+
+    public void VolunteerSignUp(View v){
+        Intent intent = new Intent(this, VolunteerSignupActivity.class);
+        startActivity(intent);
+    }
 }
