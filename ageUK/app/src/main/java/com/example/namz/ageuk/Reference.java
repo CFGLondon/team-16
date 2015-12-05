@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class moreQuestions extends AppCompatActivity {
+public class Reference extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_more_questions);
+        setContentView(R.layout.activity_reference);
     }
 
-    public void reference(View v){
-        Intent intent = new Intent(this, Reference.class);
+    public void moreQuestions2(View v){
+        Intent intent = new Intent(this, moreQuestions2.class);
         startActivity(intent);
     }
 }

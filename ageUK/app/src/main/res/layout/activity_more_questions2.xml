@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tell us more about your background:"
+        android:text="Why would you like to be a you call in time volunteer?"
         android:id="@+id/textView6"
         android:layout_marginTop="65dp"
         android:background="#fcfbfb"
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Have you interacted with elderly people before, if so, how?"
+        android:text="What do you hope to achieve for you and the person you call?"
         android:id="@+id/textView4"
         android:background="#fcfbfb"
         android:textColor="#000000"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:onClick="reference"
+        android:onClick="moreQuestions3"
         android:id="@+id/button7"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

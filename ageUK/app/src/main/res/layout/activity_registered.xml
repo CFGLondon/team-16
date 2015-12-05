@@ -31,7 +31,7 @@
 
     <EditText
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:id="@+id/editText"
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
@@ -51,7 +51,7 @@
 
     <EditText
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:id="@+id/editText2"
         android:background="#fefefe"
         android:layout_below="@+id/textView4"

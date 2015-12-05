@@ -33,6 +33,16 @@
         </activity>
         <activity android:name=".moreQuestions" >
         </activity>
+        <activity android:name=".Reference" >
+        </activity>
+        <activity android:name=".moreQuestions2" >
+        </activity>
+        <activity android:name=".moreQuestions3" >
+        </activity>
+        <activity android:name=".interests" >
+        </activity>
+        <activity android:name=".availability" >
+        </activity>
     </application>
 
 </manifest>
