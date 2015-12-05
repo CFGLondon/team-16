@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.namz.ageuk" >
+    package="com.example.namz.ageuk">
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".VolunteerSignupActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +21,7 @@
         <activity
             android:name=".infoPage"
             android:label="@string/title_activity_new_volunteer"
+<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity android:name=".newVolunteer" >
@@ -43,6 +44,16 @@
         </activity>
         <activity android:name=".availability" >
         </activity>
+=======
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".newVolunteer" />
+        <activity android:name=".v_personal_Info" />
+        <activity android:name=".Registered" />
+        <activity android:name=".r_personal_info" />
+        <activity android:name=".moreQuestions" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".Home"></activity>
+>>>>>>> 6c25c1c7f3d4fea18e68c9268da06a011d377f8c
     </application>
 
 </manifest>

@@ -11,21 +11,11 @@
     android:background="@drawable/background">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textView"
-        android:layout_marginTop="176dp"
-        android:textColor="#010101"
-        android:text="Welcome to Age UK"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign In"
+        android:text="View possible matches"
         android:id="@+id/button"
         android:onClick="LogIn"
         android:layout_below="@+id/textView"
@@ -35,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register as New Recipient"
+        android:text="View current matches"
         android:onClick="infoPage"
         android:id="@+id/button2"
         android:layout_below="@+id/button"
@@ -44,28 +34,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register as new volunteer"
+        android:text="Log call"
         android:id="@+id/button3"
         android:onClick="infoPage"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="About"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/icon"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_marginBottom="58dp"
-        android:layout_centerInParent="true" />
 
 </RelativeLayout>

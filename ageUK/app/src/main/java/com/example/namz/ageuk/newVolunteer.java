@@ -22,4 +22,5 @@ public class newVolunteer extends AppCompatActivity {
         Intent intent = new Intent(this, VolunteerSignupActivity.class);
         startActivity(intent);
     }
+
 }
