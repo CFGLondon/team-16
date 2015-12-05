@@ -64,8 +64,7 @@
         android:id="@+id/imageView"
         android:src="@drawable/icon"
         android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="58dp" />
+        android:layout_marginBottom="58dp"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>
