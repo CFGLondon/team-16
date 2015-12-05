@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Log call"
         android:id="@+id/button3"
-        android:onClick="infoPage"
+        android:onClick="LogCall"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 
